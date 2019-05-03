@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet" href="swiper.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Cos'è la Digital Health?</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top clearfix">
+        <div class="header__top__left"><img src="img/plusbianco.png" alt=""></div>
+        <div class="header__top__right"><img src="img/immagine.png" alt=""></div>
+      </div>
+      <h1>Che cos'è la digital Health?</h1>
+    </header>
+    <div class="content">
+      <div class="content__left">
+        <img class="content__left__img" src="img/heartbeat.svg" alt="cuore che batte">
+      </div>
+      <div class="content__right">
+        <p>La Digital health è la convergenza delle tecnologie digitali  con i campi della salute, dell'assistenza sanitaria, dello stile di vita e la società, al fine di migliorare l'efficienza dell'erogazione delle cure sanitarie e rendere i farmaci più personalizzati e precisi. </p>
+        <a href="#scrolla"><img src="img/down-arrow.svg" alt=" freccia giu"></a>
+      </div>
+    </div>
+    <a name="scrolla">
+    <header class="header header2">
+
+      <h1>Cosa cambia realmente?</h1>
+    </header>
+    <div class="content">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="content__left">
+                <img class="content__left__img" src="img/doctor.svg" alt="dottore">
+              </div>
+              <div class="content__right">
+                <p>Come vengono prese le decisioni mediche e impostati i trattamenti.</p>
+                <button class="content__right__button" name="nome" onclick="location.href='#'">Vai all'articolo</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+            <div class="content__left">
+              <img class="content__left__img" src="img/smart.svg" alt="smartwatch">
+            </div>
+            <div class="content__right">
+              <p>Integrazione con tecnologia indossabile e smart devices permettendo al professionista di poter monitorare i valori del paziente. </p>
+              <button class="content__right__button" name="nome" onclick="location.href='#'">Vai all'articolo</button>
+            </div>
+          </div>
+        </div>
+          <div class="swiper-slide">
+            <div class="container">
+            <div class="content__left">
+              <img class="content__left__img" src="img/science.svg" alt="research">
+            </div>
+            <div class="content__right">
+              <p>E' possibile raccogliere campioni di dati utili per scegliere un trattamento e soprattutto per la ricerca tramite big data.</p>
+              <button class="content__right__button" name="nome" onclick="location.href='#'">Vai all'articolo</button>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+    </div>
+
+    <div class="conclusion">
+      <p>Plusimple è la prima piattaforma di comunicazione ed engagement in sanità per associazioni, professionisti e strutture, per un semplice percorso ed un supporto completo da tutto il tuo indotto.</p>
+      <img src="img/device.png" alt="devices">
+      <button class="conclusion__button" name="nome" onclick="location.href='#'">Richiedi una demo</button>
+    </div>
+
+
+    <script src="swiper.js"></script>
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  </body>
+</html>
